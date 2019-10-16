@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<link
+	href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gothic+A1|Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="./css/bootstrap.css">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<jsp:include page="../main_top.jsp"></jsp:include>
+	</div>
+	<div>
+		<jsp:include page="../main_menu.jsp"></jsp:include>
+	</div>
+</body>
+</html>
